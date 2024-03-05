@@ -33,3 +33,11 @@ Variables:
 -----------------------------------------------------
 
 The day 1 of java is over and i have completed all exercises.
+
+Day 2: Today we begin with day 2 of javascript and we are learning strings and arrays today. Honestly i forgot arrays, because i hardly used them during my studies but they are really important for toring the data to the device, but the down side it only saves for that session unless u hard code the data in. In the first 2 tabs of the lesson they introduced us to what we will be learning and made us watch videos on how strings and arrays work.
+
+Strings:
+- A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging.
+- As strings are the way we display and work with text, and text is our main way of communicating and understanding through computers, strings are one of the most fundamental concepts of programming to be familiar with.
+
+I was then given an activity about strings and to take screenshots and submit them. I have done that and now will be going into the array section. The strings activity was to easy and activity 2 with the arrays was really benefitial, learning alot from it. Day 2 is now complete and i will continue with my landing and webpage project for friday.
