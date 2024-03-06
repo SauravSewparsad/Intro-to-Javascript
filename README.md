@@ -41,3 +41,16 @@ Strings:
 - As strings are the way we display and work with text, and text is our main way of communicating and understanding through computers, strings are one of the most fundamental concepts of programming to be familiar with.
 
 I was then given an activity about strings and to take screenshots and submit them. I have done that and now will be going into the array section. The strings activity was to easy and activity 2 with the arrays was really benefitial, learning alot from it. Day 2 is now complete and i will continue with my landing and webpage project for friday.
+
+Day 3: Today i begin javascript day 3, i will be leanring functions today, once i am done with the functions i am going to continue with my landing page.
+Notes:
+- Always put ur script at the end of the body tag and never anywhere above, this is if you are running the script in an html file. You can create a seperate javascript file and link it to the html like how you would with CSS.
+- You can have multiple javascript file and implent them in the html file but it will run the functions in order of the javascript files added to the html.
+- Functions can be called more then once and they take argumants.
+- Arguments make code reusable.
+
+Functions:
+- A function is a group of reusable code which can be called anywhere in your program. This eliminates the need of writing the same code again and again. It helps programmers in writing modular codes. Functions allow a programmer to divide a big program into a number of small and manageable functions.
+- Before we use a function, we need to define it. The most common way to define a function in JavaScript is by using the function keyword, followed by a unique function name, a list of parameters (that might be empty), and a statement block surrounded by curly braces.
+
+Day 3 of javascript is now complete and i will now be focusing on the landing page.
