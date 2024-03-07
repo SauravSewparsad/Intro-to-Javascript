@@ -54,3 +54,13 @@ Functions:
 - Before we use a function, we need to define it. The most common way to define a function in JavaScript is by using the function keyword, followed by a unique function name, a list of parameters (that might be empty), and a statement block surrounded by curly braces.
 
 Day 3 of javascript is now complete and i will now be focusing on the landing page.
+
+Day 4 of javascript has now begun and i am doing this chapter early so i can focus on my landing page and power point. In day 4 i will be learning booleans.
+
+Booleans:
+- Booleans are values that can be only one of two things: true or false.
+- Anything “on” or “off,” “yes” or “no,” or temporary is a usually good fit for a boolean. It’s useful to store booleans in variables to keep track of their values and change them over time.
+- if statements are used to make decisions in code. The keyword if tells JavaScript to execute the code in the curly braces under certain conditions, defined in the parentheses. These conditions are known as Boolean conditions and they may only be true or false.
+- The most basic operator is the equality operator ==. The equality operator compares two values and returns true if they're equivalent or false if they are not. Note that equality is different from assignment (=), which assigns the value on the right of the operator to a variable on the left.
+
+day 4 is now complete and i will now continue with my landing page.
