@@ -64,3 +64,4 @@ Booleans:
 - The most basic operator is the equality operator ==. The equality operator compares two values and returns true if they're equivalent or false if they are not. Note that equality is different from assignment (=), which assigns the value on the right of the operator to a variable on the left.
 
 day 4 is now complete and i will now continue with my landing page.
+Day 5 of Javascript. Today i will be doing a sprint for day 5, reviwing all the activities and things i have leaned in the past 5 days.
