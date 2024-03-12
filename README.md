@@ -219,4 +219,4 @@ Example explained:
 w3schools  is a pattern (to be used in a search). 
 i  is a modifier (modifies the search to be case-insensitive).
 
-Day 2 is now complete.
+Day 2 is now complete and i will do the flex box that was given to us.
