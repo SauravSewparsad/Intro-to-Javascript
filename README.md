@@ -135,3 +135,88 @@ Methods are actions that can be applied directly to objects. Within a web page, 
 document and window objects are the objects whose interfaces you generally use most often in DOM programming. In simple terms, the window object represents something like the browser, and the document object is the root of the document itself. Element inherits from the generic Node interface, and together these two interfaces provide many of the methods and properties you use on individual elements.
 
 Day 1 of week 2 is now complete and i will then continue with improving my portfolio.
+
+Day 2: Today we will be learnning Javascript API. To my knowledge api is data from an external source like a bird website that hold data on bird. So if we then decide to make a bird app we would copy a link and use that link to access the data on our app, that link is called an api.
+
+Additional Javascript tags:
+- Calling one function from another function
+Code inside a function behaves just like code anywhere else. This means you can call one function from inside another function. This allows you to "nest" functions so that you can create separate functions, which each perform a specific task, and then run them together as a complete process, one right after the other.
+- Creating objects with user-defined functions
+JavaScript is based on objects: the window is an object, links are objects, forms are objects, even Netscape itself (or other browser) is an object. Using objects can help make programming easier and more streamlined. You can extend the use of objects in JavaScript by making your own. The process uses functions in a slightly modified way. In fact, you'll be surprised how easy it is to make your own JavaScript objects.
+ Making a new object entails two steps:
++ Define the object in a user-defined function.
++ Use the new keyword to create (or instantiate) the object with a call to the object function.
+- Defining new properties to already-made objects
+After an object has been created you can assign a value to it. But instead of just assigning a value to the object itself, you should define a new property for the object, and assign a value to the property.
++ myobject is the name of the user-defined object.
++ property is the name of the property you want to create.
++ value is the value you want to assign.
+
+- Defining properties when you create the object
+Another method of defining properties for objects is to include the property names in the object function. You can use this technique to simultaneously create a new object and define the property values. All it takes is a few more lines of code in the object function.
+- Operators
+  JavaScript has the following types of operators. This section describes the operators and contains information about operator precedence.
+  - Assignment Operators
+Return value and chaining: 
+Like most expressions, assignments like x = y have a return value. It can be retrieved by e.g. assigning the expression or logging it: 
+An assignment operator assigns a value to its left operand based on the value of its right operand. The simple assignment operator is equal (=), which assigns the value of its right operand to its left operand. That is, x = y assigns the value of y to x.
+
+- Destructuring
+For more complex assignments, the destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects using a syntax that mirrors the construction of array and object literals.
+- Comparison Operators 
+A comparison operator compares its operands and returns a logical value based on whether the comparison is true. The operands can be numerical, string, logical, or object values. Strings are compared based on standard lexicographical ordering, using Unicode values. In most cases, if the two operands are not of the same type, JavaScript attempts to convert them to an appropriate type for the comparison. This behaviour generally results in comparing the operands numerically. The sole exceptions to type conversion within comparisons involve the === and !== operators, which perform strict equality and inequality comparisons. These operators do not attempt to convert the operands to compatible types before checking equality.
+- Arithmetic operators
+An arithmetic operator takes numerical values (either literals or variables) as their operands and returns a single numerical value. The standard arithmetic operators are addition (+), subtraction (-), multiplication (*), and division (/). These operators work as they do in most other programming languages when used with floating point numbers (in particular, note that division by zero produces Infinity).
+- Bitwise Operators
+A bitwise operator treats their operands as a set of 32 bits (zeros and ones), rather than as decimal, hexadecimal, or octal numbers. For example, the decimal number nine has a binary representation of 1001. Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values.
+- Bitwise Logical Operators
+Conceptually, the bitwise logical operators work as follows:
++ The operands are converted to thirty-two-bit integers and expressed by a series of bits (zeros and ones). Numbers with more than 32 bits get their most significant bits discarded.
++ Each bit in the first operand is paired with the corresponding bit in the second operand: first bit to first bit, second bit to second bit, and so on.
++ The operator is applied to each pair of bits, and the result is constructed bitwise. For example, the binary representation of nine is 1001, and the binary representation of fifteen is 1111. So, when the bitwise operators are applied to these values
+
+- Bitwise Shift Operators
+The bitwise shift operators take two operands: the first is a quantity to be shifted, and the second specifies the number of bit positions by which the first operand is to be shifted. The direction of the shift operation is controlled by the operator used.
+
+Shift operators convert their operands to thirty-two-bit integers and return a result of the same type as the left operand.
+
+- Logical Operators
+Logical operators are typically used with Boolean (logical) values; when they are, they return a Boolean value. However, the && and || operators return the value of one of the specified operands, so if these operators are used with non-Boolean values, they may return a non-Boolean value. The logical operators are described in the following table.
+
+- Short-circuit evaluation
+As logical expressions are evaluated left to right, they are tested for possible "short-circuit" evaluation using the following rules:
+
++ false && anything is short-circuit evaluated to false.
++ true || anything is short-circuit evaluated to true.
+The rules of logic guarantee that these evaluations are always correct. Note that the anything part of the above expressions is not evaluated, so any side effects of doing so do not take effect.
+Note that for the second case, in modern code you can use the new Nullish coalescing operator (??) that works like ||, but it only returns the second expression, when the first one is "nullish", i.e. null or undefined. It is thus the better alternative to provide defaults, when values like '' or 0 are valid values for the first expression, too.
+
+- String Operators
+In addition to the comparison operators, which can be used on string values, the concatenation operator (+) concatenates two string values together, returning another string that is the union of the two operand strings.
+- Conditional (ternary) Operator 
+The conditional operator is the only JavaScript operator that takes three operands. The operator can have one of two values based on a condition.
+
+- Comma Operator 
+The comma operator (,) simply evaluates both of its operands and returns the value of the last operand. This operator is primarily used inside a for loop, to allow multiple variables to be updated each time through the loop. It is regarded bad style to use it elsewhere, when it is not necessary. Often two separate statements can and should be used instead.
+
+- Operator Precedence 
+The precedence of operators determines the order they are applied when evaluating an expression. You can override operator precedence by using parentheses.
+
+The Document object Model:
+Event bubbling:
+- Bubbling is what the event itself does.
+- The event starts at the element that triggered it (Clicking 1. Element button, An Event Listener would be attached to each element). Then, it bubbles up to each of it’s parent elements until it reaches the document. Any listeners on any of those parent elements would get triggered as it bubbles up. Causing all the events to occur on the page possibly slowing down your application.
+- Event proprgation is a line of code where the system will read the api. That e.stopPropagation() halts this “bubbling” of events “up” through the DOM. We stop all the events from the parents occurring. 
+- Event Delegation is a technique for listening to event where you delegate a parent element as the listener for all the events that happen inside it. 
+So instead of adding Event Listeners to each Button you would just add and event Listener to the parent Element and target the child element.
+
+Regular Expressions:
+- A regular expression is a sequence of characters that forms a search pattern. The search pattern can be used for text search and text replace operations.
+- Example:
+var patt = /w3schools/i; 
+Example explained: 
+/w3schools/i  is a regular expression. 
+w3schools  is a pattern (to be used in a search). 
+i  is a modifier (modifies the search to be case-insensitive).
+
+Day 2 is now complete.
