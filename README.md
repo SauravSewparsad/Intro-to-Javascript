@@ -220,3 +220,30 @@ w3schools  is a pattern (to be used in a search).
 i  is a modifier (modifies the search to be case-insensitive).
 
 Day 2 is now complete and i will do the flex box that was given to us.
+
+Day 3: Today i will begin with day 3 which will teach us Javascript forms.
+
+JavaScript Methods and “this” Keyword:
+- In JavaScript, objects can also contain functions.
+- Accessing Object Methods allow you to access an object method using a dot notation. You can access a method by calling an objectName and a key for that method along with (). And you can access property only by calling an objectName and a key.
+- JavaScript Built-In Methods has many built-in methods
+- Adding a Method to a JavaScript Object is possible with the proper syntax.
+- JavaScript this Keyword gives access to property of an object from within a method of the same object, you need to use the this keyword.
+
+Javascript switch statement:
+- The switch statement is used to perform different actions based on different conditions.
+- Use the switch statement to select one of many code blocks to be executed.
+- The switch expression is evaluated once. The value of the expression is compared with the values of each case. If there is a match, the associated block of code is executed. If there is no match, the default code block is executed.
+- The break Keyword:
+When JavaScript reaches a break keyword, it breaks out of the switch block. This will stop the execution of inside the block. It is not necessary to break the last case in a switch block. The block breaks (ends) there anyway
+- The default Keyword 
+The default keyword specifies the code to run if there is no case match. If default is not the last case in the switch block, remember to end the default case with a break.
+- Common Code Blocks: 
+Sometimes you will want different switch cases to use the same code.
+- If multiple cases matches a case value, the first case is selected. If no matching cases are found, the program continues to the default label. If no default label is found, the program continues to the statement(s) after the switch.
+- Strict Comparison: 
+Switch cases use strict comparison (===). 
+The values must be of the same type to match. 
+A strict comparison can only be true if the operands are of the same type.
+
+Day 3 is now complete and i will begin preparing for the presentaton tomorrow.
