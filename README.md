@@ -247,3 +247,5 @@ The values must be of the same type to match.
 A strict comparison can only be true if the operands are of the same type.
 
 Day 3 is now complete and i will begin preparing for the presentaton tomorrow.
+
+Day 4: Today for day 4 of Javascript we are going to revisit most of the new code we have learned this week. I did a few of the excersies that was given to me in the day 4 moduale. After doing the activites i have then completed day 4 of javascript.
