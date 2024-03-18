@@ -249,3 +249,25 @@ A strict comparison can only be true if the operands are of the same type.
 Day 3 is now complete and i will begin preparing for the presentaton tomorrow.
 
 Day 4: Today for day 4 of Javascript we are going to revisit most of the new code we have learned this week. I did a few of the excersies that was given to me in the day 4 moduale. After doing the activites i have then completed day 4 of javascript.
+
+---------------------------------------------------------------------------------
+
+#Week 3
+
+Day 1: Today i will be going through week 3 of javascript and today will be going through all 5 days as we will only be working for 3 days this week and alot of things need to be done. 
+We will be learning events today for day 1.
+
+Strings Operations
+- Strings can be created as primitives, from string literals, or as objects, using the String() constructor
+- String primitives and string objects can be used interchangeably in most situations. See "String primitives and String objects" below. String literals can be specified using single or double quotes, which are treated identically, or using the backtick character ` . This last form specifies a template literal: with this form you can interpolate expressions
+- There are 2 ways to access string individualy. The first is the  charAt() method and the second is to treat the string like an array object.
+- When using bracket notation for character access, attempting to delete or assign a value to these properties will not succeed. The properties involved are neither writable nor configurable.
+- A similar result can be achieved using the localeCompare() method inherited by String instances.  Note that a == b compares the strings in a and b for being equal in the usual case-sensitive way. If you wish to compare without regard to upper or lower case characters.
+
+On-Event handlers:
+- The on-event handlers are a group of properties offered by DOM elements to help manage how that element reacts to events. Elements can be interactive or non-interactive. Events are actions like being clicked, detecting pressed keys, getting focus, etc. The on-event handler is usually named according to the event it is designed to react to, such as onclick, onkeypress, onfocus, etc.
+- You can specify an on<...> event handler for a particular event (such as click) for a given object in different ways:
++ Using an HTML attribute named on{eventtype} on an element, for example:
+"<button onclick="return handleClick(event);">,
++ Or by setting the corresponding property from JavaScript, for example:
+document.getElementById("mybutton").onclick = function(event) { ... }.
