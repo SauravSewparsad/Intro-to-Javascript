@@ -303,77 +303,53 @@ On-Event handlers:
   - onmousemove, The cursor moved while hovering over an object.
   - onmouseout, The cursor moved off the object
   - onmouseover, The cursor moved over the object (i.e. user hovers the mouse over the object).
+  - onmouseup, The mouse/pointing device was released after being pressed down.
+  - onmousewheel, Invoked when the mouse wheel is being rotated.
+  - onpause, Invoked when the media resource has been paused.
+  - onplay, Invoked when the media resource starts playback.
+  - onplaying, Playback has begun.
+  - onprogress, The browser/user agent is fetching media data.
+  - onratechange, Invoked when the playback rate has changed (i.e. either the defaultPlaybackRate or the playbackRate has just been updated).
+  - onreset, reset event handler.
+  - onseeked, Invoked when the seeking IDL attribute changed to false (i.e. the seeking attribute is no longer true)
+  - onseeking, Invoked when the seeking IDL attribute changed to true and the seek operation is taking long enough that the user agent has time to fire the event.
+  - onselect, Invoked when some or all of the contents of an object is selected. For example, the user selected some text within a text field.
+  - onshow, show event handler.
+  - onstalled, Invoked when the browser/user agent is trying to fetch media data but the data has stalled (i.e. the data has stopped coming).
+  - onsubmit, User submitted a form.
+  - onsuspend, The browser/user agent is (intentionally) not currently fetching media data, but has not yet downloaded the entire media resource (i.e. it has suspended the download).
+  - ontimeupdate, Invoked when the media's current playback position changed.
+  - ontoggle, Invoked when the details element is opened or closed.
+  - onvolumechange, Invoked when either the volume attribute or the muted attribute has changed.
+  - onwaiting, The next frame of the media is not yet available (but the browser/user agent expects it to become available).
 
-onmouseup
+  Dynamic HTML:
+  - HTML objects can be changed in two ways:
+  + Changing the class of the object - thereby changing the style of the object
+  + Using the style property of the object to change the style.
+  - And JavaScript functions may be designed in various different ways, for example:
+  + An object is referenced directly in the JavaScript function using the id value. This function can then be used to change the style of only that particular object.
++ An object id being passed as an argument to the JavaScript function, so that the style of any object may be changed.
++ An object may be accessed by using the event to determine the object in which the event occurred.
 
-The mouse/pointing device was released after being pressed down.
+Data Object:
+- The Date object is a built-in object in JavaScript that stores the date and time. It provides a number of built-in methods for formatting and managing that data.
+- By default, a new Date instance without arguments provided creates an object corresponding to the current date and time. This will be created according to the current computer’s system settings.
+- Epoch time, also referred to as zero time, is represented by the date string 01 January, 1970 00:00:00 Universal Time (UTC), and by the 0 timestamp. We can test this in the browser by creating a new variable and assigning to it a new Date instance based on a timestamp of 0.
+- Epoch time was chosen as a standard for computers to measure time by in earlier days of programming, and it is the method that JavaScript uses.
 
-onmousewheel
+Keyboard Events:
+- The Keydown Event (onkeydown), The keydown event occurs when the user presses down a key on the keyboard. You can handle the keydown event with the onkeydown event handler. The following example will show you an alert message when the keydown event occurs.
+- The Keyup Event (onkeyup), The keyup event occurs when the user releases a key on the keyboard. You can handle the keyup event with the onkeyup event handler. The following example will show you an alert message when the keyup event occurs.
+- The Keypress Event (onkeypress), The keypress event occurs when a user presses down a key on the keyboard that has a character value associated with it. For example, keys like Ctrl, Shift, Alt, Esc, Arrow keys, etc. will not generate a keypress event, but will generate a keydown and keyup event.
 
-Invoked when the mouse wheel is being rotated.
+Form Events:
+- The Focus Event (onfocus), The focus event occurs when the user gives focus to an element on a web page. You can handle the focus event with the onfocus event handler.
+- The Blur Event (onblur), The blur event occurs when the user takes the focus away from a form element or a window. You can handle the blur event with the onblur event handler.
+- The Change Event (onchange), The change event occurs when a user changes the value of a form element. You can handle the change event with the onchange event handler.
+- The Submit Event (onsubmit), The submit event only occurs when the user submits a form on a web page. You can handle the submit event with the onsubmit event handler.
 
-onpause
-
-Invoked when the media resource has been paused.
-
-onplay
-
-Invoked when the media resource starts playback.
-
-onplaying
-
-Playback has begun.
-
-onprogress
-
-The browser/user agent is fetching media data.
-
-onratechange
-
-Invoked when the playback rate has changed (i.e. either the defaultPlaybackRate or the playbackRate has just been updated).
-
-onreset
-
-reset event handler.
-
-onseeked
-
-Invoked when the seeking IDL attribute changed to false (i.e. the seeking attribute is no longer true)
-
-onseeking
-
-Invoked when the seeking IDL attribute changed to true and the seek operation is taking long enough that the user agent has time to fire the event.
-
-onselect
-
-Invoked when some or all of the contents of an object is selected. For example, the user selected some text within a text field.
-
-onshow
-
-show event handler.
-
-onstalled
-
-Invoked when the browser/user agent is trying to fetch media data but the data has stalled (i.e. the data has stopped coming).
-
-onsubmit
-
-User submitted a form.
-
-onsuspend
-
-The browser/user agent is (intentionally) not currently fetching media data, but has not yet downloaded the entire media resource (i.e. it has suspended the download).
-
-ontimeupdate
-
-Invoked when the media's current playback position changed.
-
-ontoggle
-
-Invoked when the details element is opened or closed.
-
-onvolumechange
-
-Invoked when either the volume attribute or the muted attribute has changed.
-
-onwaiting, The next frame of the media is not yet available (but the browser/user agent expects it to become available).
+Document/Window Event:
+- The Load Event (onload), The load event occurs when a web page has finished loading in the web browser. You can handle the load event with the onload event handler.
+- The Unload Event (onunload), The unload event occurs when a user leaves the current web page. You can handle the unload event with the onunload event handler.
+- The Resize Event (onresize), The resize event occurs when a user resizes the browser window. The resize event also occurs in situations when the browser window is minimized or maximized. You can handle the resize event with the onresize event handler.
