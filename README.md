@@ -353,3 +353,37 @@ Document/Window Event:
 - The Load Event (onload), The load event occurs when a web page has finished loading in the web browser. You can handle the load event with the onload event handler.
 - The Unload Event (onunload), The unload event occurs when a user leaves the current web page. You can handle the unload event with the onunload event handler.
 - The Resize Event (onresize), The resize event occurs when a user resizes the browser window. The resize event also occurs in situations when the browser window is minimized or maximized. You can handle the resize event with the onresize event handler.
+
+--------------------------------------------------------------
+
+#Week 4
+
+Day 1: Today i will be going through the whole of week 4 which will teach me about control flow and game componets.
+
+Program flowcharts:
+- The program flowchart illustrates the logic of the program and gives details on manipulating the data.
+- It is less costly to determine, arrange and rearrange complex logic on a flowchart than to correct logic errors in an implemented program.
+- A program flowchart is vital if the program is to be maintained easily and efficiently or if modifications are necessary.
+
+When you are making a flowchart it is also nice to make it pleasing for on the eyes. To do that you should:
+- Using appropriate symbols
+- Flow direction that is inconsistent
+- Colour schemes/colour coding.
+- Having consistent symbol sizes
+- Having consistent spacing between your symbols
+
+For Loop:
+- Loops can execute a block of code a number of times and are handy if you want to run the same code over and over again, each time with a different value.
+
+The next thing we will do is learn how to optimize our website and how to manage search engines.
+
+Image and video optimization:
+- The service that I used to compress my images was Optimizilla, an easy-to-use website where you upload your images, select the level of compression you want, and then download the compressed image. I saw size decreases upwards of 70% for some of my resources, which goes a LONG way towards faster load times.
+
+Search engine optimization:
+- Search engines are answer machines. They scour billions of pieces of content and evaluate thousands of factors to determine which content is most likely to answer your query.
+- Search engines do all of this by discovering and cataloguing all available content on the Internet (web pages, PDFs, images, videos, etc.) via a process known as “crawling and indexing,” and then ordering it by how well it matches the query in a process we refer to as “ranking.”
+- organic search results are the ones that are earned through effective SEO, not paid for (i.e. not advertising)
+- Today, search engine results pages — often referred to as “SERPs” — are filled with both more advertising and more dynamic organic results formats (called “SERP features”) than we've ever seen before.
+- SEO has ~20X more traffic opportunity than PPC on both mobile and desktop
+- 
